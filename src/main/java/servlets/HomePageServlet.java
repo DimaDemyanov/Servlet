@@ -18,6 +18,7 @@ import java.io.ObjectInputStream;
 public class HomePageServlet extends HttpServlet {
     static final Logger logger = LogManager.getLogger(HomePageServlet.class.getName());
     public static final String PAGE_URL = "/resources";
+
     private final ResourceServerI resourceServer;
 
     public HomePageServlet(ResourceServerI resourceServer) {

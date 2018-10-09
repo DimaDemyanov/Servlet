@@ -2,3 +2,7 @@
 **.iml
 **/target
 **/out
+tester.jar
+task.txt
+start.sh
+start.bat
